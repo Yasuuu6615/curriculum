@@ -1,0 +1,161 @@
+.header-1 {
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+}
+
+.header-2 {
+    position: absolute;
+    left: 230px;
+    top: 30px;
+    width: 40px;
+    height: 40px;
+    border: 10px solid;
+    border-color: white;
+    box-sizing: content-box;
+    background-color: #a9004b;
+}
+
+.header-3 {
+    position: absolute;
+    left: 280px;
+    top: 30px;
+    width: 40px;
+    height: 40px;
+    border: 10px solid;
+    border-color: white;
+    box-sizing: content-box;
+    background-color: #a9004b;
+}
+
+.header-4 {
+    position: absolute;
+    left: 330px;
+    top: 30px;
+    width: 40px;
+    height: 40px;
+    border: 10px solid;
+    border-color: white;
+    box-sizing: content-box;
+    background-color: #a9004b;
+}
+
+.main-1 {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+.main-2 {
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    float: left;
+    position: relative;
+}
+
+.main-item-1 {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    width: 140px;
+    height: 40px;
+    border: 5px solid;
+    border-color: white;
+    box-sizing: content-box;
+    background-color: #ff863f;
+}
+
+.main-item-2 {
+    position: absolute;
+    left: 40px;
+    top: 100px;
+    width: 140px;
+    height: 40px;
+    border: 5px solid;
+    border-color: white;
+    box-sizing: content-box;
+    background-color: #ff863f;
+}
+
+.main-item-3 {
+    position: absolute;
+    left: 40px;
+    top: 160px;
+    width: 140px;
+    height: 40px;
+    border: 5px solid;
+    border-color: white;
+    box-sizing: content-box;
+    background-color: #ff863f;
+}
+
+.footer {
+    clear: both;
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}
+
+@media screen and (max-width: 479px) {
+    .header-1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .header-2 {
+        position: absolute;
+        left: 80px;
+        top: 30px;
+    }
+
+    .header-3 {
+        position: absolute;
+        left: 80px;
+        top: 80px;
+    }
+
+    .header-4 {
+        position: absolute;
+        left: 80px;
+        top: 130px;
+    }
+
+    .main-1 {
+        width: 200px;
+        height: 100px;
+        background-color: #80bfa8;
+    }
+
+    .main-2 {
+        width: 200px;
+        height: 250px;
+        background-color: #8c2727;
+        clear: both;
+        position: relative;
+    }
+
+    .main-item-1 {
+        position: absolute;
+        left: 30px;
+        top: 20px;
+    }
+
+    .main-item-2 {
+        position: absolute;
+        left: 30px;
+        top: 80px;
+    }
+
+    .main-item-3 {
+        position: absolute;
+        left: 30px;
+        top: 140px;
+    }
+
+    .footer {
+        width: 200px;
+        height: 100px;
+    }
+}
